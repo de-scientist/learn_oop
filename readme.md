@@ -29,5 +29,10 @@
 
 
 
+### **Making a simple fetch request﻿**
+
+* **Let's make a simple fetch request to get data from a public API (a website that shares data).**
 
 
+
+* **We'll use jsonplaceholder.typicode.com, which gives fake user data.**
