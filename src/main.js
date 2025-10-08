@@ -43,3 +43,4 @@ async function getJoke() {
 }
 
 getJoke();
+getJoke("dad")
