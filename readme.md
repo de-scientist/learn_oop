@@ -16,7 +16,7 @@
 
 ### **HTTP Request**
 
-﻿
+**﻿public**
 **HTTP (HyperText Transfer Protocol) is how computers communicate over the web.**
 
 **There are different types of requests:**
@@ -50,4 +50,9 @@
 ### **Using async await for easier syntax﻿**
 
 * **Instead of using .then(), we can use async/await for a cleaner approach.**
-* 
+
+
+
+#### **Handling Errors﻿**
+
+* **Sometimes, things go wrong (e.g., no internet, server issues). You should always handle errors**

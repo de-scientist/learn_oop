@@ -43,4 +43,24 @@ async function getJoke() {
 }
 
 getJoke();
-getJoke("dad")
+getJoke("dad");
+
+
+//handling errors e.g., no internet, server issues
+async function fetchUser() {
+  try {
+    const response = await fetch(
+      "https://jsonplaceholder.typicode.com/users/1",
+    );
+    if (!response.ok) {
+      console.log("Something went wrong");
+      return;
+    }
+    const data = await response.json(); // Convert response to JSON
+    console.log(data); // Display user data
+  } catch (error) {
+    console.error("Error:", error); // Handle errors
+  }
+}
+
+fetchUser();
