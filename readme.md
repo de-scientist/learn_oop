@@ -44,3 +44,10 @@
 
 
 * **fetch("https://jsonplaceholder.typicode.com/users/1") Asks the server for user data (GET request).**
+
+
+
+### **Using async await for easier syntax﻿**
+
+* **Instead of using .then(), we can use async/await for a cleaner approach.**
+* 
