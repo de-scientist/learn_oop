@@ -14,6 +14,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
 
 // use async/await to consume the promise
 async function fetchUser() {
+    //use try{} and catch{} for exemption handling
   try {
     const response = await fetch(
       "https://jsonplaceholder.typicode.com/users/1",
