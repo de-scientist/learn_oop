@@ -27,3 +27,19 @@ async function fetchUser() {
 }
 
 fetchUser();
+
+//get jokes
+async function getJoke() {
+    try {
+        const response =  await fetch("https://official-joke-api.appspot.com/jokes/random");
+        const data = await response.json();
+        console.log(data);
+    }
+     catch (error) {
+        console.log("Kindly try again", error);
+        
+    }
+  
+}
+
+getJoke();
