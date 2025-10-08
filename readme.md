@@ -11,3 +11,23 @@
 
 
 * **Similarly, fetch sends a request to a website (server), and the server responds with some data.**
+
+
+
+### **HTTP Request**
+
+﻿
+**HTTP (HyperText Transfer Protocol) is how computers communicate over the web.**
+
+**There are different types of requests:**
+
+* **GET: a computer asks for data (e.g., "Give me a list of users").**
+* **POST: a computer sends data to be created on the server (e.g., "Create a new user, here are the details...").**
+* **PUT: a computer requests for data updates (e.g., "Change the first name of John to Jack")**
+* **DELETE: a computer requests for data to be deleted (e.g., "Delete information about John")**
+* **Most websites you visit send and receive data using HTTP requests in the background.**
+
+
+
+
+
