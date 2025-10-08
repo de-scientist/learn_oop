@@ -36,3 +36,11 @@
 
 
 * **We'll use jsonplaceholder.typicode.com, which gives fake user data.**
+
+
+
+**Explanation:**
+
+
+
+* **fetch("https://jsonplaceholder.typicode.com/users/1") Asks the server for user data (GET request).**
